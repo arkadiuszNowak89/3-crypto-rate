@@ -1,0 +1,14 @@
+.container {
+  margin-bottom: 20px;
+}
+
+.container form {
+  padding: 20px;
+}
+
+.filter-input {
+  width: 150px;
+  height: 35px;
+  font-size: 20px;
+  text-align: center;
+}
