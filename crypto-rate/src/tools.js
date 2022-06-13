@@ -1,22 +1,22 @@
 import { FaArrowUp, FaArrowDown, FaArrowsAltH } from 'react-icons/fa';
 
-export function getBalancedRate(rate, x) {
+export function getBalancedRate(r, x) {
   if (x > 0)
     return (
       <span className='rate-up'>
-        {rate} <FaArrowUp />
+        {r} <FaArrowUp />
       </span>
     );
   else if (x < 0)
     return (
       <span className='rate-down'>
-        {rate} <FaArrowDown />
+        {r} <FaArrowDown />
       </span>
     );
   else
     return (
       <span className='rate-same'>
-        {rate} <FaArrowsAltH />
+        {r} <FaArrowsAltH />
       </span>
     );
 }
